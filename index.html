@@ -20,9 +20,18 @@
     <link rel="stylesheet" href="./assets/css/aos.min.css">
 
 
+    <!-- link to emailjs -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+        (function () {
+            emailjs.init("kzmst5lPBX5KThzff");
+        })();
+    </script>
     <title>Page Title</title>
 
 </head>
+
 
 <body>
     <!-- hero section begins -->
@@ -56,7 +65,7 @@
         <div class="content">
             <h4 data-aos="fade-up">Hello, my name is</h4>
             <h1 data-aos="fade-up" data-aos-delay="300">JACOB EUNICE <span class="block">GIGI</span> </h1>
-            <p data-aos="fade-up" data-aos-delay="300">A fullstack developer based in Nigeria.</p>
+            <p data-aos="fade-up" data-aos-delay="300">fullstack developer.</p>
             <p data-aos="fade-up" data-aos-delay="300">i enjoy using code to solve real life problems and building user
                 friendly web apps</p>
             <a href="#projects" class="btn" data-aos="fade-up" data-aos-delay="500">Explore My
@@ -197,15 +206,15 @@
             <h2 class="display-4">contact me</h1>
                 <p class="mx-auto">Send Me a Message Let's Work Together!.</p>
                 <form action="">
-                    <input type="text" class="form-control" placeholder="Name" required>
+                    <input type="text" id="name" class="form-control" placeholder="Name" required>
 
-                    <input type="email" class="form-control" placeholder="Email" required>
+                    <input type="email" id="email" class="form-control" placeholder="Email" required>
 
-                    <input type="text" class="form-control" placeholder="Subject" required>
+                    <input type="text" class="form-control" id="subject" placeholder="Subject" required>
 
-                    <textarea class="form-control" placeholder="message" rows="5"></textarea>
+                    <textarea class="form-control" id="message" placeholder="message" rows="5"></textarea>
 
-                    <button class="send">Send Message</button>
+                    <button class="send" id="submit-btn" type="button">Send Message</button>
 
                 </form>
 
