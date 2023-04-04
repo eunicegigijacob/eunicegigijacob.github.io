@@ -1,231 +1,266 @@
 <!DOCTYPE html>
 <html>
 
-<head>
-    <meta charset='utf-8'>
-    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <head>
+        <meta charset='utf-8'>
+        <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+        <meta name='viewport' content='width=device-width, initial-scale=1'>
 
-    <!-- css links -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
-        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700;800;900&display=swap"
-        rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
-    <link rel='stylesheet' type='text/css' media='screen' href='./assets/css/styles.css'>
-    <link rel="stylesheet" href="./assets/css/aos.min.css">
-
-
-    <!-- link to emailjs -->
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
-    </script>
-    <script type="text/javascript">
-        (function () {
-            emailjs.init("kzmst5lPBX5KThzff");
-        })();
-    </script>
-    <title>Page Title</title>
-
-</head>
+        <!-- css links -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+            integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+            crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700;800;900&display=swap"
+            rel="stylesheet">
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+        <link rel='stylesheet' type='text/css' media='screen' href='./assets/css/styles.css'>
+        <link rel="stylesheet" href="./assets/css/aos.min.css">
 
 
-<body>
-    <!-- hero section begins -->
-    <div class="hero">
-        <nav>
-            <h2 class="logo">Portfo<span>lio</span></h2>
+        <!-- link to emailjs -->
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+        </script>
+        <script type="text/javascript">
+            (function () {
+                emailjs.init("kzmst5lPBX5KThzff");
+            })();
+        </script>
+        <title>Page Title</title>
 
-            <ul class="navbar" id="navbar">
-                <li>
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
-                </li>
-                <li>
-                    <a class="nav-link" href="#projects">Projects</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#about">About</a>
-                </li>
-                <li>
-                    <a class="nav-link" href="#contact">Contact</a>
-                </li>
-            </ul>
-            <div class="social-links">
-                <a href="https://www.linkedin.com/in/eunice-jacob-6a0840252/"><i class="ri-linkedin-line"></i></a>
-                <a href="https://twitter.com/e_unicej"><i class="ri-twitter-fill"></i></a>
-                <a href="https://github.com/eunicegigijacob"><i class="ri-github-fill"></i></a>
-            </div>
-            <a class="menu-bar"> <i class="ri-menu-fill" id="menu-bar"></i></a>
-        </nav>
+    </head>
 
 
-        <div class="content">
-            <h4 data-aos="fade-up">Hello, my name is</h4>
-            <h1 data-aos="fade-up" data-aos-delay="300">JACOB EUNICE <span class="block">GIGI</span> </h1>
-            <p data-aos="fade-up" data-aos-delay="300">fullstack developer.</p>
-            <p data-aos="fade-up" data-aos-delay="300">i enjoy using code to solve real life problems and building user
-                friendly web apps</p>
-            <a href="#projects" class="btn" data-aos="fade-up" data-aos-delay="500">Explore My
-                Work</a>
-        </div>
-    </div>
+    <body>
+        <!-- hero section begins -->
+        <div class="hero">
+            <nav>
+                <h2 class="logo">Portfo<span>lio</span></h2>
 
-
-    <!-- About -->
-
-    <!-- projects section begins -->
-    <section id="projects">
-        <div class="title">
-            <h2>my projects</h2>
-        </div>
-
-        <div class="box">
-
-            <div class="card" data-aos="fade-up" data-aos-delay="300">
-                <div class="image">
-                    <a href="https://github.com/eunicegigijacob/Dev-wallet"><img src="./assets/images/dev-wallet.PNG"
-                            alt="A screenshot of the project">
-                    </a>
-                </div>
-                <div class="project-details">
-
-                    <h5>Dev Wal<span>let</span></h5>
-                    <div class="write-up">
-                        <p class="project-description">
-                            Built using Html, Css, and javascript, node js express, mysql datababase, sequelize ORM and
-                            many other packages,
-                            it is a didgital wallet app for banks and other financial institutions.
-                        </p>
-                        <p class="project-links">
-                            <a href="#" class="link-arrow">Coming soon....<i class="ri-arrow-right-up-line"></i></a>
-                            <a href="https://github.com/eunicegigijacob/Dev-wallet" class="link-arrow">Github
-                                repo <i class="ri-arrow-right-up-line"></i></a>
-                        </p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="card" data-aos="fade-up" data-aos-delay="300">
-                <div class="image">
-                    <a href="#">
-                        <img src="./assets/images/Gigi's.png" alt="gigi'cars logo">
-                    </a>
-                </div>
-                <div class="project-details">
-
-                    <h5>Gigi's Car Show<span>Room</span></h5>
-                    <div class="write-up">
-                        <p class="project-description">
-                            An e-commerce site built using Html, CSS, Javascript, Node js, Express MongoDB, Mongoose
-                            ODM, Ejs, etc.
-                        </p>
-                        <p>
-                            <a href="#" class="link-arrow">Coming Soon.... <i class="ri-arrow-right-up-line"></i></a>
-                            <a href="https://github.com/eunicegigijacob/showroom-backend" class="link-arrow">Github repo
-                                <i class="ri-arrow-right-up-line"></i></a>
-                        </p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="card" data-aos="fade-up" data-aos-delay="300">
-                <div class="image">
-                    <a href="https://project-ajo.netlify.app/">
-                        <img src="./assets/images/Ajo.png" alt="ajo logo" style="background-color: azure;">
-                    </a>
-                </div>
-                <div class="project-details">
-
-                    <h5>Ajo: Helping Individuals Build<span>Wealth</span></h5>
-                    <div class="write-up">
-                        <p class="project-description">
-                            Ajo is a web application that provides an innovative solution for group savings for SMEs and
-                            individuals.
-                        </p>
-                        <p>
-                            <a href="https://project-ajo.netlify.app/" class="link-arrow">live Demo<i
-                                    class="ri-arrow-right-up-line"></i></a>
-                            <a href="https://github.com/eunicegigijacob/AJO" class="link-arrow">Github
-                                repo
-                                <i class="ri-arrow-right-up-line"></i></a>
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-
-    </section>
-
-
-
-    <!-- about -->
-    <section id="about">
-        <div data-aos="fade-up" class="main">
-            <div class="about-text">
-                <h2>about me</h2>
-                <h5>fullstack<span> developer</span></h5>
-                <p>
-                    I am a Nigeria based fullstack javascript developer, with an affinity for backend development,
-                    I am a Registered Nurse transitioning into the tech space,
-                    I enjoy building apps that would solve real problems and create visible change.
-                </p>
-            </div>
-
-            <div class="skills">
-                <h4>My Ski<span>lls</span></h4>
-                <ul>
-                    <li>HTML5</li>
-                    <li>CSS</li>
-                    <li>Javascript</li>
-                    <li>Node js</li>
-                    <li>Express</li>
-                    <li>mysql/SQL</li>
-                    <li>MongoDB/NoSql</li>
-                    <li>Git/github</li>
+                <ul class="navbar" id="navbar">
+                    <li>
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li>
+                        <a class="nav-link" href="#projects">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li>
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
                 </ul>
+                <div class="social-links">
+                    <a href="https://www.linkedin.com/in/eunice-jacob-6a0840252/"><i class="ri-linkedin-line"></i></a>
+                    <a href="https://twitter.com/e_unicej"><i class="ri-twitter-fill"></i></a>
+                    <a href="https://github.com/eunicegigijacob"><i class="ri-github-fill"></i></a>
+                </div>
+                <a class="menu-bar"> <i class="ri-menu-fill" id="menu-bar"></i></a>
+            </nav>
+
+
+            <div class="content">
+                <h4 data-aos="fade-up">Hello, my name is</h4>
+                <h1 data-aos="fade-up" data-aos-delay="300">JACOB EUNICE <span class="block">GIGI</span> </h1>
+                <p data-aos="fade-up" data-aos-delay="300">fullstack developer.</p>
+                <p data-aos="fade-up" data-aos-delay="300">i enjoy using code to solve real life problems and building
+                    user
+                    friendly web apps</p>
+                <a href="#projects" class="btn" data-aos="fade-up" data-aos-delay="500">Explore My
+                    Work</a>
+            </div>
+        </div>
+
+
+        <!-- About -->
+
+        <!-- projects section begins -->
+        <section id="projects">
+            <div class="title">
+                <h2>my projects</h2>
             </div>
 
-            <a href="#" class="btn"> Download CV</a>
-            <a href="#contact" class="btn">Contact Me</a>
+            <div class="box">
+
+                <div class="card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="image">
+                        <a href="https://github.com/eunicegigijacob/Dev-wallet"><img
+                                src="./assets/images/dev-wallet.PNG" alt="A screenshot of the project">
+                        </a>
+                    </div>
+                    <div class="project-details">
+
+                        <h5>Dev Wal<span>let</span></h5>
+                        <div class="write-up">
+                            <p class="project-description">
+                                Built using Html, Css, and javascript, node js express, mysql datababase, sequelize ORM
+                                and
+                                many other packages,
+                                it is a didgital wallet app for banks and other financial institutions.
+                            </p>
+                            <p class="project-links">
+                                <a href="#" class="link-arrow">Coming soon....<i class="ri-arrow-right-up-line"></i></a>
+                                <a href="https://github.com/eunicegigijacob/Dev-wallet" class="link-arrow">Github
+                                    repo <i class="ri-arrow-right-up-line"></i></a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="image">
+                        <a href="#">
+                            <img src="./assets/images/Gigi's.png" alt="gigi'cars logo">
+                        </a>
+                    </div>
+                    <div class="project-details">
+
+                        <h5>Gigi's Car Show<span>Room</span></h5>
+                        <div class="write-up">
+                            <p class="project-description">
+                                An e-commerce site built using Html, CSS, Javascript, Node js, Express MongoDB, Mongoose
+                                ODM, Ejs, etc.
+                            </p>
+                            <p>
+                                <a href="#" class="link-arrow">Coming Soon.... <i
+                                        class="ri-arrow-right-up-line"></i></a>
+                                <a href="https://github.com/eunicegigijacob/showroom-backend" class="link-arrow">Github
+                                    repo
+                                    <i class="ri-arrow-right-up-line"></i></a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="image">
+                        <a href="https://project-ajo.netlify.app/">
+                            <img src="./assets/images/Ajo.png" alt="ajo logo" style="background-color: azure;">
+                        </a>
+                    </div>
+                    <div class="project-details">
+
+                        <h5>Ajo: Helping Individuals Build<span>Wealth</span></h5>
+                        <div class="write-up">
+                            <p class="project-description">
+                                Ajo is a web application that provides an innovative solution for group savings for SMEs
+                                and
+                                individuals.
+                            </p>
+                            <p>
+                                <a href="https://project-ajo.netlify.app/" class="link-arrow">live Demo<i
+                                        class="ri-arrow-right-up-line"></i></a>
+                                <a href="https://github.com/eunicegigijacob/AJO" class="link-arrow">Github
+                                    repo
+                                    <i class="ri-arrow-right-up-line"></i></a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </section>
+
+
+
+        <!-- about -->
+        <section id="about">
+            <div data-aos="fade-up" class="main">
+                <div class="about-text">
+                    <h2>about me</h2>
+                    <h5>fullstack<span> developer</span></h5>
+                    <p>
+                        Hi there, I'm Eunice Jacob Gigi – a passionate and talented full-stack JavaScript developer.
+                        I've always been fascinated
+                        by technology and have a keen eye for detail, which helps me to excel in front-end and back-end
+                        development.
+                    </p>
+                    <p>
+                        In my experience, I've worked with modern JavaScript frameworks like React, Node.js, and
+                        Express.js. I've also had the
+                        opportunity to work on personal projects that showcase my skills in developing dynamic web
+                        applications. I take pride in
+                        my innovative problem-solving skills, has helped me grow and be a valuable member of every team
+                        I am apart of
+                    </p>
+                    <p>
+                        What sets me apart is my excellent communication and collaboration skills, which make me an
+                        excellent team player. I'm
+                        dedicated to producing high-quality code, and I'm always eager to learn and improve. My strong
+                        work ethic drives me to
+                        continuously develop my skills and knowledge.
+
+                        Beyond my technical expertise, I'm an open and approachable person who loves sharing my passion
+                        for coding with others.
+                        I find joy in collaborating with others in the industry and learning from them.
+                    </p>
+                    <p>
+                        In summary, I'm a talented and dedicated full-stack JavaScript developer who is passionate about
+                        making a difference in
+                        the industry. I bring a fresh perspective and an infectious passion to any team, making me a
+                        valuable addition to any
+                        development project.
+
+
+                    </p>
+                </div>
+
+                <div class="skills">
+                    <h4>My Ski<span>lls</span></h4>
+                    <ul>
+                        <li>HTML5</li>
+                        <li>CSS</li>
+                        <li>Javascript</li>
+                        <li>React</li>
+                        <li>Node js</li>
+                        <li>Express</li>
+                        <li>mysql/SQL</li>
+                        <li>MongoDB/NoSql</li>
+                        <li>Git/github</li>
+                    </ul>
+                </div>
+
+                <a href="#" class="btn"> Download CV</a>
+                <a href="#contact" class="btn">Contact Me</a>
+            </div>
+        </section>
+
+        <!-- contact -->
+        <section id="contact">
+            <div class="contact-form">
+                <h2 class="display-4">contact me</h1>
+                    <p class="mx-auto">Send Me a Message Let's Work Together!.</p>
+                    <form action="">
+                        <input type="text" id="name" class="form-control" placeholder="Name" required>
+
+                        <input type="email" id="email" class="form-control" placeholder="Email" required>
+
+                        <input type="text" class="form-control" id="subject" placeholder="Subject" required>
+
+                        <textarea class="form-control" id="message" placeholder="message" rows="5"></textarea>
+
+                        <button class="send" id="submit-btn" type="button">Send Message</button>
+
+                    </form>
+
+
+            </div>
+        </section>
+
+
+        <!-- footer starts -->
+        <div class="footer">
+            <p>Copyright © All Rights Reserved Eunice Jacob</p>
         </div>
-    </section>
-
-    <!-- contact -->
-    <section id="contact">
-        <div class="contact-form">
-            <h2 class="display-4">contact me</h1>
-                <p class="mx-auto">Send Me a Message Let's Work Together!.</p>
-                <form action="">
-                    <input type="text" id="name" class="form-control" placeholder="Name" required>
-
-                    <input type="email" id="email" class="form-control" placeholder="Email" required>
-
-                    <input type="text" class="form-control" id="subject" placeholder="Subject" required>
-
-                    <textarea class="form-control" id="message" placeholder="message" rows="5"></textarea>
-
-                    <button class="send" id="submit-btn" type="button">Send Message</button>
-
-                </form>
 
 
-        </div>
-    </section>
-
-
-    <!-- footer starts -->
-    <div class="footer">
-        <p>Copyright © All Rights Reserved Eunice Jacob</p>
-    </div>
-
-
-    <script src="./assets/js/index.js"></script>
-    <script src="./assets/js/aos.min.js"></script>
-    <script src="./assets/js/app.js"></script>
-</body>
+        <script src="./assets/js/index.js"></script>
+        <script src="./assets/js/aos.min.js"></script>
+        <script src="./assets/js/app.js"></script>
+    </body>
 
 </html>
