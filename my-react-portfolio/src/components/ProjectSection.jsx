@@ -1,4 +1,4 @@
-import devwallet from '../assets/dev-wallet.png';
+import devwallet from '../assets/devWallet.png';
 import ajo from '../assets/Ajo.png';
 import Gigis from '../assets/Gigi.png';
 
