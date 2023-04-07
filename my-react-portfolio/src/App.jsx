@@ -1,6 +1,15 @@
-import {useEffect} from 'react'
+import { useEffect } from 'react';
+// animate on scroll library imports
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+
+// page components imports
+import Navbar from './components/Navbar';
+import HomeSection from './components/HomeSection';
+import ProjectSection from './components/ProjectSection';
+import AboutSection from './components/AboutSection';
+import ContactSection from './components/ContactSection';
+import FooterSection from './components/Footer';
 
 function App() {
   useEffect(() => {
@@ -9,9 +18,16 @@ function App() {
 
   return (
     <div className="App">
-      <div data-aos="fade-left" data-aos-delay="0" data-aos-duration="800" >Animated content</div>
+      <section className="hero">
+        <Navbar />
+        <HomeSection />
+      </section>
+      <ProjectSection />
+      <AboutSection />
+      <ContactSection />
+      <FooterSection />
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
