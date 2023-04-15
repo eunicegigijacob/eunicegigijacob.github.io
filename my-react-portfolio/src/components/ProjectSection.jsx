@@ -91,7 +91,7 @@ const ProjectSection = () => {
               </p>
               <p>
                 <a
-                  href="https://project-ajo.netlify.app/"
+                  href="https://ajo-personal.netlify.app/"
                   className="link-arrow"
                 >
                   live Demo
