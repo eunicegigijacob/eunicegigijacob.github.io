@@ -76,7 +76,7 @@ const ProjectSection = () => {
 
         <div className="card" data-aos="fade-up" data-aos-delay="300">
           <div className="image">
-            <a href="https://project-ajo.netlify.app/">
+            <a href="https://ajo-personal.netlify.app/">
               <img src={ajo} alt="ajo logo" />
             </a>
           </div>
@@ -98,7 +98,7 @@ const ProjectSection = () => {
                   {/* <i class="ri-arrow-right-up-line"></i> */}
                 </a>
                 <a
-                  href="https://github.com/eunicegigijacob/AJO"
+                  href="https://github.com/eunicegigijacob/ajo-personal-"
                   className="link-arrow"
                 >
                   Github repo
