@@ -62,14 +62,14 @@ const ProjectSection = () => {
               </p>
               <p>
                 <a
-                  href="https://techbots-inventory.netlify.app/"
+                  href="https://techbots-inventory-app.netlify.app/"
                   className="link-arrow"
                 >
                   Live site..
                   {/* <i class="ri-arrow-right-up-line"></i> */}
                 </a>
                 <a
-                  href="https://github.com/IfeoluwaOkesola/inventory_app/"
+                  href="https://github.com/eunicegigijacob/inventory_app"
                   className="link-arrow"
                 >
                   Github repo
